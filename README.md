@@ -1,4 +1,4 @@
-# Hato::Plugin::Twitter
+# Hato::Plugin::Twitter [![BuildStatus](https://secure.travis-ci.org/kentaro/hato-plugin-twitter.png)](http://travis-ci.org/kentaro/hato-plugin-twitter)
 
 TODO: Write a gem description
 
