@@ -1,10 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require 'hato/plugin/twitter/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'hato-plugin-twitter'
-  spec.version       = '0.0.1'
+  spec.version       = Hato::Plugin::Twitter::VERSION
   spec.authors       = ['Kentaro Kuribayashi']
   spec.email         = ['kentarok@gmail.com']
   spec.description   = %q{Hato plugin to send messages via Twitter}
