@@ -1,7 +1,10 @@
+require 'hato/plugin'
+
 module Hato
   module Plugin
-    module Twitter
-      VERSION = "0.0.1"
+    class Twitter < Base
+      VERSION = '0.0.1'
     end
   end
 end
+
